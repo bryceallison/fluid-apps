@@ -10,39 +10,39 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Safari 7 — Mac</string>
+		<string>Safari 8 — Mac</string>
 		<key>value</key>
-		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4</string>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.5.17 (KHTML, like Gecko) Version/8.0.5 Safari/600.5.17</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>iOS Safari 7 — iPhone</string>
+		<string>iOS Safari 8 — iPhone</string>
 		<key>value</key>
-		<string>Mozilla/5.0 (iPhone; CPU OS 706 like Mac OS X) AppleWebKit/537.51.1 (KHTML like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53</string>
+		<string>Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>iOS Safari 7 — iPad</string>
+		<string>iOS Safari 8 — iPad</string>
 		<key>value</key>
-		<string>Mozilla/5.0 (iPad; CPU OS 706 like Mac OS X) AppleWebKit/537.51.1 (KHTML like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53</string>
+		<string>Mozilla/5.0 (iPad; CPU iPad OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Google Chrome 37 — Mac</string>
+		<string>Google Chrome 43 — Mac</string>
 		<key>value</key>
-		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.58 Safari/537.36</string>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.45 Safari/537.36</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Firefox 31 — Mac</string>
+		<string>Firefox 37 — Mac</string>
 		<key>value</key>
-		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0</string>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:37.0) Gecko/20100101 Firefox/37.0</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Internet Explorer 11</string>
 		<key>value</key>
-		<string>Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko</string>
+		<string>Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko</string>
 	</dict>
 </array>
 </plist>

@@ -18,6 +18,9 @@ extern NSString * const OKAutocompletionEnabledKey;
 extern NSString * const OKAutocompletionFuzzyMatchKey;
 extern NSString * const OKAutocompletionDelayKey;
 extern NSString * const OKCanAcceptCompletionDelayKey;
+extern NSString * const OKWrapTextKey;
+
+extern NSString * const OKWrapTextDidChangeNotification;
 
 typedef NS_ENUM(NSUInteger, OKTextViewRefreshType) {
     OKTextViewRefreshTypeDynamic = 0,
@@ -42,7 +45,8 @@ typedef NS_ENUM(NSUInteger, OKTextViewRefreshType) {
 - (void)renderGutterNow;
 - (void)renderGutterLater;
 
-- (void)highlightLineNumber:(NSUInteger)lineNum;
+- (void)highlightLineNumber:(NSUInteger)lineNum; // scrollToVisible=YES
+- (void)highlightLineNumber:(NSUInteger)lineNum scrollToVisible:(BOOL)scroll;
 - (void)highlightRanges:(NSArray *)hiRanges focusRanges:(NSArray *)focusRanges;
 
 - (NSColor *)triggerBackgroundFlagColor;

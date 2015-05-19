@@ -85,4 +85,5 @@
 @property (nonatomic, assign) BOOL canAcceptCompletion;
 @property (nonatomic, assign) NSRange currentCompletionRange;
 @property (nonatomic, assign) BOOL enableDefinitionLinking;
+@property (nonatomic, assign) BOOL wasJustSpace;
 @end

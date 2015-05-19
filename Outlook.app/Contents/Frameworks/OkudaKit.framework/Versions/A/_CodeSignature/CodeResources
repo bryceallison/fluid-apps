@@ -6,7 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		2d5uvLC/p8gMTT2glfJ99pnvQ5M=
+		r4sFgEDFxbaKSyTY2SGta3Hg7Dw=
+		</data>
+		<key>Resources/applescript.css</key>
+		<data>
+		q4wK39alVu7nfLgAmAPwqZPx5RE=
 		</data>
 		<key>Resources/c.css</key>
 		<data>
@@ -33,7 +37,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nxg15uhvJmDsR1L123SHXC8WsCs=
+			0ZbMFLpqkFTX4aRhGGmoCTQTfW8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -57,6 +61,18 @@
 		<key>Resources/py.css</key>
 		<data>
 		mdMJnsSkQuHcHXDA+aVNKsVM/OY=
+		</data>
+		<key>Resources/tdtemplateengine.grammar</key>
+		<data>
+		1NoWBrmP+02QxHhLGgxIiYJtF/U=
+		</data>
+		<key>Resources/templateengine.css</key>
+		<data>
+		ylGrQFCXqQfLgjZoh0UP/fKZ76k=
+		</data>
+		<key>Resources/unix.css</key>
+		<data>
+		q4wK39alVu7nfLgAmAPwqZPx5RE=
 		</data>
 		<key>Resources/xquery.css</key>
 		<data>
@@ -83,7 +99,7 @@
 		</data>
 		<key>Headers/OKTextView.h</key>
 		<data>
-		E2Un8oLXvBDkFJmWp2pnIjB4YKk=
+		91JIZwY0ZGD9qBH9bAv5AOeYp60=
 		</data>
 		<key>Headers/OKTrigger.h</key>
 		<data>
@@ -99,7 +115,7 @@
 		</data>
 		<key>Headers/OKViewController.h</key>
 		<data>
-		zo4ss5FAspDGEbWWVAwhACZth5s=
+		ffYEhy7tBLrDEJe3TobiTh2Kivc=
 		</data>
 		<key>Headers/OkudaKit.h</key>
 		<data>
@@ -107,7 +123,11 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		2d5uvLC/p8gMTT2glfJ99pnvQ5M=
+		r4sFgEDFxbaKSyTY2SGta3Hg7Dw=
+		</data>
+		<key>Resources/applescript.css</key>
+		<data>
+		q4wK39alVu7nfLgAmAPwqZPx5RE=
 		</data>
 		<key>Resources/c.css</key>
 		<data>
@@ -134,7 +154,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nxg15uhvJmDsR1L123SHXC8WsCs=
+			0ZbMFLpqkFTX4aRhGGmoCTQTfW8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -158,6 +178,18 @@
 		<key>Resources/py.css</key>
 		<data>
 		mdMJnsSkQuHcHXDA+aVNKsVM/OY=
+		</data>
+		<key>Resources/tdtemplateengine.grammar</key>
+		<data>
+		1NoWBrmP+02QxHhLGgxIiYJtF/U=
+		</data>
+		<key>Resources/templateengine.css</key>
+		<data>
+		ylGrQFCXqQfLgjZoh0UP/fKZ76k=
+		</data>
+		<key>Resources/unix.css</key>
+		<data>
+		q4wK39alVu7nfLgAmAPwqZPx5RE=
 		</data>
 		<key>Resources/xquery.css</key>
 		<data>

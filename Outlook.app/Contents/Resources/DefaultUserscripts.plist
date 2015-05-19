@@ -8,50 +8,6 @@
 			<key>enabled</key>
 			<true/>
 			<key>name</key>
-			<string>Reader</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>URLPattern</key>
-					<string>*google.com*reader*</string>
-					<key>enabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>URLPattern</key>
-					<string>*reader*google.com*</string>
-					<key>enabled</key>
-					<true/>
-				</dict>
-			</array>
-			<key>source</key>
-			<string>window.fluid.dockBadge = '';
-setTimeout(updateDockBadge, 1000);
-setTimeout(updateDockBadge, 3000);
-setInterval(updateDockBadge, 5000);
-
-function updateDockBadge() {
-	var newBadge = '';
-
-	var regex = /\s*\((\d+)\+?\)\s*/;
-
-	var text = '' + document.title;
-	if (text.length) {
-		console.log('text: ' + text);
-		var res = text.match(regex);
-		console.log('res: ' + res);
-		if (res &amp;&amp; res.length &gt; 1) {
-			newBadge = res[1];
-			console.log('newBadge: ' + newBadge);
-		}
-	}
-	window.fluid.dockBadge = newBadge;
-}</string>
-		</dict>
-		<dict>
-			<key>enabled</key>
-			<true/>
-			<key>name</key>
 			<string>Gmail</string>
 			<key>patterns</key>
 			<array>
@@ -80,6 +36,8 @@ setTimeout(updateDockBadge, 1000);
 setTimeout(updateDockBadge, 3000);
 setInterval(updateDockBadge, 5000);
 
+var regex = /\s*Inbox\s*\((\d+)\)[^\d]*/;
+
 function updateDockBadge() {
 	var newBadge = '';
 
@@ -87,7 +45,6 @@ function updateDockBadge() {
 	var anchorEls = document.getElementsByTagName('a');
 	//console.log('anchors: ' + anchorEls.length);
 
-	var regex = /\s*Inbox\s*\((\d+)\)[^\d]*/;
 	for (var i = 0; i &lt; anchorEls.length; i++) {
 		var anchorEl = anchorEls[i];
 		//console.log('anchorEl: '+ anchorEl);
@@ -140,7 +97,7 @@ function updateDockBadge() {
 		console.log('res: ' + res);
 		if (res &amp;&amp; res.length &gt; 1) {
 			newBadge = res[1];
-			console.log('newBadge: ' + newBadge);
+			//console.log('newBadge: ' + newBadge);
 		}
 	}
 	window.fluid.dockBadge = newBadge;

@@ -32,6 +32,10 @@ extern NSString *const FUPlugInKey;                     // FUPlugIn *
 extern NSString *const FUPlugInViewControllerKey;       // NSViewController
 extern NSString *const FUPlugInViewControllerDrawerKey; // NSDrawer -- this is only sent for view controllers currently in a drawer position
 
+@protocol FUPlugInViewController <NSObject>
+- (void)willClose;
+@end
+
 @interface NSObject (FUPlugInNotifications)
 - (void)plugInViewControllerWillAppear:(NSNotification *)n;
 - (void)plugInViewControllerDidAppear:(NSNotification *)n;

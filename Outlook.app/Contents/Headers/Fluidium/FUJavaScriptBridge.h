@@ -20,9 +20,10 @@
 @class FUJavaScriptGrowlNotification;
 @class WebNotification;
 
-@protocol FUJavaScriptBridgeDelegate
+@protocol FUJavaScriptBridgeDelegate <NSObject>
 @required
 - (WebScriptObject *)windowScriptObjectForBridge:(FUJavaScriptBridge *)b;
+@optional
 - (void)bridge:(FUJavaScriptBridge *)bridge didReceivePushState:(id)stateObj title:(NSString *)title fragment:(NSString *)frag;
 @end
 

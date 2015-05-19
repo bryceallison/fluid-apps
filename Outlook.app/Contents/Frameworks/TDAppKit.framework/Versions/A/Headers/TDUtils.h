@@ -28,6 +28,9 @@ id TDCGHexColor(NSUInteger x);
 id TDCGHexaColor(NSUInteger x);
 NSString *TDHexStringFromColor(NSColor *c);
 
+NSString *TDStringFromColor(NSColor *c);
+NSColor *TDColorFromString(NSString *s);
+
 void TDPerformOnMainThread(void (^block)(void));
 void TDPerformOnBackgroundThread(void (^block)(void));
 void TDPerformOnMainThreadAfterDelay(double delay, void (^block)(void));
@@ -68,3 +71,5 @@ typedef struct {
 TDEdgeInsets TDEdgeInsetsMake(CGFloat top, CGFloat left, CGFloat bottom, CGFloat right);
 
 void TDDumpAppleEvent(NSAppleEventDescriptor *aevtDesc);
+
+CGRect TDCombineRects(CGRect r1, CGRect r2);

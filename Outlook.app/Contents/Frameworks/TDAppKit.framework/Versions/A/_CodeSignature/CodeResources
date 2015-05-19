@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		Qs2DIW39bPcB26s+1+sUH2I2QEg=
+		2GJojobwjs42pvd8ksCUaPd/kVg=
 		</data>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -21,7 +21,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ti+3XcHJgsOL3o5RqmaKN369wcM=
+			H22VxGG7+QkhkmLUpaTrDAmqDIE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -30,7 +30,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nNhOReRRD7ByYLd6RfRgMDPon8A=
+			ViOLD68v0NZ7gLR++0tA3X6VW1c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q9lOLvqQQXfkGAlqzC8xZFiAho0=
+			Qgfluv9+MCa5A8XzuNgeUJCIu1M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -85,7 +85,7 @@
 		</data>
 		<key>Headers/NSBezierPath+TDAdditions.h</key>
 		<data>
-		e4ws68uq5f/CKAz53TFHQKAX0Jg=
+		0Uvv5zef4yv1y+b1+Qx+K9BSxHs=
 		</data>
 		<key>Headers/NSDate+TDAdditions.h</key>
 		<data>
@@ -253,7 +253,7 @@
 		</data>
 		<key>Headers/TDUtils.h</key>
 		<data>
-		5cXeaBOX5bVZmObQEuFwuaaKB8I=
+		CyBqaYDfmvh2JLMmptZmt8GxE/w=
 		</data>
 		<key>Headers/TDView.h</key>
 		<data>
@@ -277,7 +277,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		Qs2DIW39bPcB26s+1+sUH2I2QEg=
+		2GJojobwjs42pvd8ksCUaPd/kVg=
 		</data>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -292,7 +292,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ti+3XcHJgsOL3o5RqmaKN369wcM=
+			H22VxGG7+QkhkmLUpaTrDAmqDIE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -301,7 +301,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nNhOReRRD7ByYLd6RfRgMDPon8A=
+			ViOLD68v0NZ7gLR++0tA3X6VW1c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -310,7 +310,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q9lOLvqQQXfkGAlqzC8xZFiAho0=
+			Qgfluv9+MCa5A8XzuNgeUJCIu1M=
 			</data>
 			<key>optional</key>
 			<true/>
